@@ -3,13 +3,13 @@
 // ========================================
 
 const projects = [
-    {
-        title: "Sample Project 1",
-        description: "첫 번째 샘플 프로젝트입니다. 여기에 프로젝트 설명을 작성하세요.",
-        path: "App/sample-project-1",
-        tags: ["JavaScript", "HTML", "CSS"],
-        thumbnail: null // null이면 기본 그라디언트 배경 사용
-    },
+    // {
+    //     title: "Sample Project 1",
+    //     description: "첫 번째 샘플 프로젝트입니다. 여기에 프로젝트 설명을 작성하세요.",
+    //     path: "App/sample-project-1",
+    //     tags: ["JavaScript", "HTML", "CSS"],
+    //     thumbnail: null // null이면 기본 그라디언트 배경 사용
+    // },
     {
         title: "Sample Project 2",
         description: "두 번째 샘플 프로젝트입니다. 다양한 웹 앱을 추가할 수 있습니다.",
@@ -122,3 +122,4 @@ function navigateToProject(path) {
 document.addEventListener('DOMContentLoaded', () => {
     renderProjects();
 });
+
