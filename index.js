@@ -11,10 +11,10 @@ const projects = [
         thumbnail: null // null이면 기본 그라디언트 배경 사용
     },
     {
-        title: "Sample Project 2",
-        description: "두 번째 샘플 프로젝트입니다. 다양한 웹 앱을 추가할 수 있습니다.",
-        path: "App/sample-project-2",
-        tags: ["Web App", "Interactive"],
+        title: "단어 암기 게임(객관식)",
+        description: "간단한 단어 암기 게임입니다.(객관식 형식).",
+        path: "App/word_memory_game",
+        tags: ["word", "memory", "simple"],
         thumbnail: null
     }
     // 새 프로젝트를 추가하려면 여기에 객체를 추가하세요:
@@ -122,5 +122,6 @@ function navigateToProject(path) {
 document.addEventListener('DOMContentLoaded', () => {
     renderProjects();
 });
+
 
 
